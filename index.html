@@ -5,16 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio site Homepage</title>
+    <link rel="normalize" href="css/normalize.css">
+    <link rel="styles" href="css/styles.css">
 </head>
 <body>
-    <div>
+    <nav>
         <h2>Navigation</h2>
         <ul>
             <li><a href="about.html">About</a></li>
             <li><a href="projects.html">Projects</a></li>
-            <li><a href="otherwork.html">Other Work</a></li>
         </ul>
-    </div>
+    </nav>
     <div>
         <p> Hi I'm Durando <h1>I'm a UX desinger</h1> </p>
         <img src="graphics/images/Homepageimage.jpg" alt="Durando image">
@@ -22,10 +23,40 @@
     <br>
    
     <h2>Lastest Projects</h2>
-    <ul>
-        <li>project A</li>
-        <li>project b</li>
-        <li>project c</li>
-    </ul>
+    <div class="project-grid">
+        <div class="project">
+          <figure>
+            <img
+              src="http://placehold.it/378x296"
+              height="296"
+              width="378"
+              alt="Project A"
+            />
+            <figcaption>Project A</figcaption>
+          </figure>
+        </div>
+        <div class="project">
+          <figure>
+            <img
+              src="http://placehold.it/378x296"
+              height="296"
+              width="378"
+              alt="Project B"
+            />
+            <figcaption>Project B</figcaption>
+          </figure>
+        </div>
+        <div class="project">
+          <figure>
+            <img
+              src="http://placehold.it/378x296"
+              height="296"
+              width="378"
+              alt="Project C"
+            />
+            <figcaption>Project C</figcaption>
+          </figure>
+        </div>
+     </div>
 </body>
 </html>
