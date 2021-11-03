@@ -231,9 +231,15 @@
     font-display: swap;
 }
 
+*{
+    box-sizing:border-box;
+}
+
 body{
     background-color: #f7f7f7;
+   
 }
+
 h1 {
     font-family: Spectral, Helvetica, sans-serif;
     font-weight: 900;
@@ -246,7 +252,7 @@ h2{
     font-weight: 500;
     font-style: normal;  
     color: #7a7a7a;
-    text-align: center;
+
 }
 
 h3{
@@ -264,6 +270,34 @@ p{
     color: #7a7a7a;
     text-align: center;
 }
-h2.latest{
-    text-align: center;
+/* home page selectors */
+hr{
+  margin: 1rem 5rem;  
 }
+.mainimage{
+    width: 100%;
+    max-width: 375;
+    height: 75vh;
+    margin: 0rem;
+}
+.headertext p{
+    margin: 0 auto;
+    text-align: left;
+}
+.headertext h1{
+    margin: 0 auto;
+    text-align: left;
+}
+.latest{
+    text-align: center;
+    margin: 1rem 1rem;
+}
+
+.img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;  
+}
+    
+    
