@@ -293,11 +293,13 @@ hr{
     margin: 1rem 1rem;
 }
 
-.img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;  
+.project{
+margin: 32px auto;
+max-width: 400px;
+width: 100%
 }
-    
+figure{
+    margin: 2rem;
+}
+
     
