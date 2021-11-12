@@ -287,7 +287,6 @@ figcaption{
     color: #7a7a7a;  
     text-align: center;
     padding: 1rem;
-    text-decoration: none;
 }
 a{
     text-decoration: none;
@@ -295,6 +294,7 @@ a{
 /* home page selectors */
 
 hr{
+    clear: left;
   margin: 1rem 5rem;  
 }
 .mainimage{
@@ -310,6 +310,11 @@ hr{
     margin: 0 auto;
     text-align: left;
 }
+.headertext{
+width: 100%;
+position: absolute;
+top: 8rem;
+}
 .latest{
     text-align: center;
     margin: 1rem 1rem;
@@ -318,18 +323,15 @@ hr{
 nav{
     text-align: center;
 }
-ul.nav{
-    list-style-type: none;
-    padding: 0;
-    font-family: 'Source Sans Pro', Helvetica, sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    line-height: 1.25rem;
-    color: #7a7a7a;
-}
+
 img{
-    display:block;
-    margin: 1rem auto 0; 
+    /*display:block;
+    margin: 1rem auto 0; */
+    height: auto;
+    width: 100%;
+}
+.headerimage{
+    margin-top: 4rem;
 }
 figure{
     margin: 1rem;
@@ -348,6 +350,7 @@ border-radius: 5px;
  /*about me selctors*/
  .about{
      text-align: center;
+     margin: 4rem auto 0;
  }
  .list{
      list-style-type: none;
@@ -372,4 +375,56 @@ ul{
     font-style: normal;
     line-height: 1.25rem;
     color: #7a7a7a;
+}
+
+.navigation{
+    text-align: center;
+}
+.navbar{
+    width: 100%;
+    position: absolute;
+    top: .25rem;
+}
+
+.left1 {
+    float:left; 
+    width:25%; 
+}
+.left2 {
+ float: left;
+ width: 25%;
+}
+.center3{
+    float: left;
+    width:25%;
+    
+}
+.right4{
+    float:right;
+    width:25%;
+}
+.insta {
+    float:left; 
+    width:33%; 
+    text-align: right;
+}
+.twitter {
+ float: left;
+ width: 33%;
+ text-align: center;
+}
+.linkin{
+    float: left;
+    width:33%;
+    text-align: left;
+}
+.socialmedia{
+    width: 50%;
+    height: auto;
+    border: solid black;
+}
+.socialbar{
+    width: 100%;    
+    position: absolute;
+    margin-top: 4rem;
 }
