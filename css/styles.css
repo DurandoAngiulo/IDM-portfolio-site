@@ -236,7 +236,7 @@
 }
 
 body{
-    background-color: #f7f7f7;
+    background-color: #F0F4FA;
    
 }
 /* font selectors*/
@@ -264,7 +264,7 @@ h3{
     text-align: center;
 }
 h4{
-    font-family: Spectral, Helvetica, sans-serif;
+    font-family: "Spectral", Helvetica, sans-serif;
     font-weight: 500;
     font-style: normal; 
     color: #7a7a7a;
@@ -290,6 +290,7 @@ figcaption{
 }
 a{
     text-decoration: none;
+    color: #fafafa;
 }
 /* home page selectors */
 
@@ -302,18 +303,23 @@ hr{
     margin: 0rem;
     border: none;
 }
-.headertext p{
+.headertext p {
     margin: 0 auto;
     text-align: left;
+    margin-left: 1rem;
+    color: #fafafa;
 }
 .headertext h1{
     margin: 0 auto;
     text-align: left;
+    margin-left: 1rem;
+    font-weight: 500;
+    color: #fafafa;
 }
 .headertext{
 width: 100%;
 position: absolute;
-top: 8rem;
+top: 12rem;
 }
 .latest{
     text-align: center;
@@ -342,7 +348,7 @@ border: 1px solid #a5a5a5;
 border-radius: 5px;
  }
 .project{
- margin: .5rem auto; 
+ margin: .5rem auto 3rem; 
 
 }
 
@@ -376,7 +382,7 @@ ul{
     line-height: 1.25rem;
     color: #7a7a7a;
 }
-
+/* navaigation selectors */
 .navigation{
     text-align: center;
 }
@@ -403,28 +409,43 @@ ul{
     float:right;
     width:25%;
 }
-.insta {
-    float:left; 
-    width:33%; 
-    text-align: right;
+
+/*footer selectors */
+footer{
+    margin-bottom: -4rem;
 }
-.twitter {
- float: left;
- width: 33%;
- text-align: center;
+.social {
+    display: block;
+    text-align: center;
+    float:left;  
+    margin: 0 0rem;
+    width: 33%; 
 }
-.linkin{
-    float: left;
-    width:33%;
-    text-align: left;
-}
+
 .socialmedia{
-    width: 50%;
-    height: auto;
-    border: solid black;
+    width: 30px;
+    height: 30px;
 }
+.email{
+    font-family: 'Source Sans Pro', Helvetica, sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    text-align: center;
+    line-height: 1.25rem;
+    color: #fafafa;  
+    margin: 0;
+}
+/* positioning home */
 .socialbar{
-    width: 100%;    
-    position: absolute;
-    margin-top: 4rem;
+    width: 100%;  
+    height: auto;
+    position: relative;
+    top: 10.5rem;
+    padding: 0 6rem;   
+}
+.emailwrapper{
+    width: 100%;
+    position: relative;
+    top: 11rem;
+    margin-bottom: -50px;
 }
