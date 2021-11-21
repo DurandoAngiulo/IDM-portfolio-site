@@ -281,17 +281,43 @@ p{
 }
 figcaption{
     font-family: 'Source Sans Pro', Helvetica, sans-serif;
-    font-weight: 500;
+    font-weight: 400;
     font-style: normal;
     line-height: 1.25rem;
     color: #7a7a7a;  
-    text-align: center;
-    padding: 1rem;
+    text-align: left;
+    padding: 1rem .2rem;
+    font-size: 20px;
+    line-height: 1.9rem;
 }
 a{
     text-decoration: none;
     color: #fafafa;
 }
+/*image selectors */
+img{
+    height: auto;
+    width: 100%;
+}
+.headerimage{
+    margin-top: 4rem;
+}
+
+.projectimage{
+    box-shadow: 0px 6px 5px rgba(0, 0, 0, 0.4);
+    border-radius: 3%;
+}
+figure{
+    margin: 1rem;
+}
+ figure.border{
+margin: 2rem;
+ }
+.project{
+ margin: .5rem auto 3rem; 
+
+}
+
 /* home page selectors */
 
 hr{
@@ -326,47 +352,47 @@ top: 12rem;
     margin: 1rem 1rem;
 }
 
-nav{
+/* project page selectors*/
+
+.projheader{
     text-align: center;
+    margin: 4rem auto 0;
 }
 
-img{
-    /*display:block;
-    margin: 1rem auto 0; */
-    height: auto;
-    width: 100%;
+ /*about me/blog selctors*/
+ .blog{
+    text-align: center;
+    color: #fafafa;
+    font-style: italic;
+    font-weight: 400;
+    margin: 0 2rem;
 }
-.headerimage{
-    margin-top: 4rem;
-}
-figure{
-    margin: 1rem;
-}
- figure.border{
-margin: 1rem;
-border: 1px solid #a5a5a5;
-border-radius: 5px;
- }
-.project{
- margin: .5rem auto 3rem; 
+.blogwrapper{
+    position: absolute;
+    top: 13rem;
 
 }
-
-
- /*about me selctors*/
  .about{
      text-align: center;
-     margin: 4rem auto 0;
+     margin: 2rem auto 0;
  }
  .list{
-     list-style-type: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
  }
 
- 
  .experience{
-     margin: 1rem 1rem;
+     margin: 1rem 1rem 1.5rem;
  }
-
+.resume{
+    font-family: 'Source Sans Pro', Helvetica, sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    line-height: 1.25rem;
+    color: #7a7a7a;
+    text-align: left;  
+}
  /* Casestudy selectors*/
 
 .section{
@@ -383,6 +409,13 @@ ul{
     color: #7a7a7a;
 }
 /* navaigation selectors */
+
+nav{
+    text-align: center;
+}
+.projects{
+    color: #7a7a7a
+}
 .navigation{
     text-align: center;
 }
@@ -428,14 +461,14 @@ footer{
 }
 .email{
     font-family: 'Source Sans Pro', Helvetica, sans-serif;
-    font-weight: 600;
+    font-weight: 500;
     font-style: italic;
     text-align: center;
     line-height: 1.25rem;
     color: #fafafa;  
     margin: 0;
 }
-/* positioning home */
+/* positioning footer */
 .socialbar{
     width: 100%;  
     height: auto;
