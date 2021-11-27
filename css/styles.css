@@ -317,14 +317,19 @@ iframe{
 figure{
     margin: 1rem 0 1.5rem;
 }
- figure.border{
+ .border{
 margin: 2rem;
  }
+.borderfinal{
+margin: 2rem 2rem 0;   
+}
 .project{
  margin: .5rem auto 3rem; 
 
 }
-
+.projectfinal{
+    margin: .5rem auto 0; 
+}
 /* home page selectors */
 
 hr{
@@ -400,6 +405,9 @@ top: 12rem;
     color: #7a7a7a;
     text-align: left;  
     margin: 0 1rem;
+}
+.blogtitle{
+    margin: 1rem auto 0;
 }
  /* Casestudy selectors*/
 
