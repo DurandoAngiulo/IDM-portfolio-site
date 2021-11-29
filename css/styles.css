@@ -243,7 +243,7 @@ body{
 h1 {
     font-family: Spectral, Helvetica, sans-serif;
     font-weight: 600;
-    font-style: bold; 
+    font-style: normal; 
     color: #7a7a7a;
     text-align: center;
     margin: 1rem auto;
@@ -413,7 +413,7 @@ top: 12rem;
     margin: 4rem 1rem 1rem;        
 }
 
-/* navaigation selectors */
+/* navigation selectors */
 
 nav{
     text-align: center;
@@ -473,7 +473,7 @@ footer{
     color: #fafafa;  
     margin: 0;
 }
-/* positioning footer */
+/* positioning footer elements */
 .socialbar{
     width: 100%;  
     height: auto;
@@ -503,7 +503,7 @@ section{
 .title{
     font-family: Spectral, Helvetica, sans-serif;
     font-weight: 400;
-    font-style: bold; 
+    font-style: normal; 
     color: #7a7a7a;
     text-align: center;
     margin: 5rem auto 2rem;
