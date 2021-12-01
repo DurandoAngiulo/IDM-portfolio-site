@@ -369,13 +369,12 @@ hr{
 
 /* home page selectors */
 header{
-    height:500px;
-    width: 100%;
-    margin: 0;
+    margin-bottom: 1rem;
     padding-top: 1rem;
     background-image: url("../graphics/images/homepageportrait.jpg");
-    /*background-size: 100%;
-    background-repeat: no-repeat;*/
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
 }
 .menu{
     width: 40px;
