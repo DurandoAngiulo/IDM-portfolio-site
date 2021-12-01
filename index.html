@@ -11,29 +11,18 @@
 <body>
     <!--navigation--> 
     <header>
-        <figure class= "mainimage">
-          <img
-          src="graphics/images/homepageportrait.jpg" 
-          height="500"
-          width= "375"
-          alt="Durando image">
-          <div class= "headertext">
-            <p> Hi I'm Durando</p>
-            <h1>I'm a UX Designer</h1>
-          </div>
-        </figure> 
-        <nav class= "navbar">
-          <div class= "left1"><h4 class= "navigation"><a href= "index.html">Home</a></h4></div>
-          <div class= "left2"><h4 class= "navigation"><a href="about.html">About</a></h4></div>
-          <div class= "center3"><h4 class= "navigation"><a href="projects.html">Projects</a></h4></div>
-          <div class= "right4"><h4 class= "navigation"><a href="blog.html">Blog</a></h4></div>
-        </nav>
+      <ul class="navigation">
+        <a href="#footer"><li class="menuicon2"><img class= "menu" src="graphics/images/hamburgermenu.png"
+        alt="menuicon">
+      </li></a>
+      </ul>
+      <p class= "header1"> Hi I'm Durando</p>
+      <h1 class= "headertext">I'm a UX Designer</h1>
+      <br class="spacer">
       </header>
     <br>
    <!--casestudy images-->
-   <hr>
-    <h2 class="latest">Lastest Work</h2>
-    
+  <h2 class="latest">Lastest Work</h2>
   <div class="project">
     <a href= "casestudy1.html">
     <figure class= "border">
@@ -65,7 +54,7 @@
     </figure>
   </a>
   </div>
-  <div class="project">
+  <div class="projectfinal">
     <a href= "casestudy3.html">
     <figure class= "border">
       <img class= "projectimage"
@@ -79,48 +68,42 @@
     </figure>
   </a>
   </div>
-     <footer>
-      <div class= "socialbar">
-        <a href="https://www.instagram.com/durando_angiulo/" target= "_blank">
-        <div class="social">
-          <img class= "socialmedia"
+    <footer id="footer">
+      <ul class= "navmenu">
+        <a href= "index.html"><li>Home</li></a>
+        <div class= "pageborder" ></div>
+        <a href="Projects.html"><li>Projects</li></a>
+        <div class= "pageborder" ></div>
+        <a href="about.html"><li>About</li></a>
+        <div class= "pageborder" ></div>
+        <a href="blog.html"><li>Blog</li></a>
+      </ul>
+      <nav>
+        <ul class= "overflow">
+          <a href="https://www.instagram.com/durando_angiulo/" target= "_blank">
+            <li class= "footericons"><img class= "socialmedia"
             src="graphics/images/instagram.png"
             height="10"
             width="10"
-            alt="instagram"
-            /> 
-        </div>
-        </a>
-        <a href="https://twitter.com/durandoangiulo?lang=en" target= "_blank">
-        <div class="social">
-          <img class= "socialmedia"
+            alt="instagram"/></li>
+          </a>
+          <a href="https://twitter.com/durandoangiulo?lang=en" target= "_blank">
+            <li class= "footericons"><img class= "socialmedia"
             src="graphics/images/twitter.png"
-            height="20"
-            width="20"
-            alt="twitter"
-            /> 
-        </div>
-        </a>
-        <a href="https://www.linkedin.com/in/durando-angiulo-971b57203" target= "_blank">
-        <div class="social">
-          <img class= "socialmedia"
+            height="10"
+            width="10"
+            alt="instagram"/></li>
+          </a>
+          <a href="https://www.linkedin.com/in/durando-angiulo-971b57203" target= "_blank">
+            <li class= "footericons"><img class= "socialmedia"
             src="graphics/images/linkdin.png"
-            height="20"
-            width="20"
-            alt="linkdin"
-            /> 
-        </div>
-        </a>
-      </div>
-      <div class= "emailwrapper">
-        <p class= "email" >dpa35@drexel.edu</p>
-      </div>
-      <img
-      src="graphics/images/footerbg.jpg"
-      height="200"
-      width="375"
-      alt="footerimage"
-    />
+            height="10"
+            width="10"
+            alt="instagram"/></li>
+          </a>
+        </ul>
+      </nav> 
+      <p class= "email">dpa35@drexel.edu</p>
     </footer>
 </body>
 </html>

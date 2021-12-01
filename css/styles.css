@@ -254,8 +254,6 @@ h2{
     font-style: normal;  
     color: #7a7a7a;
     text-align: center;
-    
-
 }
 
 h3{
@@ -292,11 +290,8 @@ figcaption{
     font-size: 20px;
     line-height: 1.9rem;
 }
-a{
-    text-decoration: none;
-    color: #fafafa;
-}
-/*image selectors */
+
+/*image formating selectors */
 img{
     height: auto;
     width: 100%;
@@ -330,38 +325,79 @@ margin: 2rem 2rem 0;
 .projectfinal{
     margin: .5rem auto 0; 
 }
-/* home page selectors */
 
+/*global selectors*/
+
+.pageborder{ /*separator line */
+    background-color: #fafafa;
+    height: 1.5px;
+    margin: .5rem auto;
+    width: 10%;
+    border-radius: 20%;
+}
+a{
+    text-decoration: none;
+    color: #fafafa;
+}
+br{
+    margin: 1rem auto;
+}
 hr{
     clear: left;
   margin: .25rem 5rem .5rem;  
 }
-.mainimage{
+
+/* navigation selectors */
+
+.navigation{
+    overflow: auto;
+    list-style-type: none;
+    padding: 0 .5rem;
+    margin: 0 auto;
+}
+
+.menuicon1{
+    float: left;
+    width: 50%;
+    
+}
+.menuicon2{
+    float: right;
+    width: 50%;
+    padding-left: 8rem;
+}
+
+/* home page selectors */
+header{
+    height:500px;
     width: 100%;
-    margin: 0rem;
-    border: none;
+    margin: 0;
+    padding-top: 1rem;
+    background-image: url("../graphics/images/homepageportrait.jpg");
+    /*background-size: 100%;
+    background-repeat: no-repeat;*/
 }
-.headertext p {
-    margin: 0 auto;
-    text-align: left;
-    margin-left: 1rem;
-    color: #fafafa;
+.menu{
+    width: 40px;
+    height: 29px;
 }
-.headertext h1{
-    margin: 0 auto;
-    text-align: left;
-    margin-left: 1rem;
-    font-weight: 500;
-    color: #fafafa;
-}
-.headertext{
-width: 100%;
-position: absolute;
-top: 12rem;
-}
+ .headertext{
+     text-align: left;
+     color: #fafafa;
+     margin-top: .5rem;
+     margin-bottom: 10rem;
+     padding-left: .5rem;
+ }
+ .header1{
+     margin: 9rem auto 0rem;
+     color:#fafafa;
+     padding-left: .5rem;
+ }
 .latest{
     text-align: center;
     margin: 1rem 1rem;
+    font-size: 35px;
+    color: #5a5a5a;
 }
 
 /* project page selectors*/
@@ -413,56 +449,42 @@ top: 12rem;
     margin: 4rem 1rem 1rem;        
 }
 
-/* navigation selectors */
-
-nav{
-    text-align: center;
-}
-.projects{
-    color: #7a7a7a
-}
-.navigation{
-    text-align: center;
-}
-.navbar{
-    width: 100%;
-    position: absolute;
-    top: .25rem;
-}
-
-.left1 {
-    float:left; 
-    width:25%; 
-}
-.left2 {
- float: left;
- width: 25%;
-}
-.center3{
-    float: left;
-    width:25%;
-    
-}
-.right4{
-    float:right;
-    width:25%;
-}
 
 /*footer selectors */
 footer{
-    margin-bottom: -4rem;
-}
-.social {
-    display: block;
-    text-align: center;
-    float:left;  
-    margin: 0 0rem;
-    width: 33%; 
+    height: 335px; 
+    padding-top: 3rem;
+    background-image: url("../graphics/images/footerbg.jpg");  
 }
 
 .socialmedia{
     width: 30px;
     height: 30px;
+    
+}
+
+.overflow{
+    overflow: auto;
+    list-style-type: none;
+    padding: 0 5rem;
+    margin: 2rem auto 0;
+}
+.footericons{
+    float: left;
+    width: 33.3%;
+    
+}
+.navmenu{
+    list-style-type: none;
+    margin: 0rem auto;
+    padding: 0;
+    text-align: center;
+    font-family: 'Spectral', Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    font-style: normal;
+    line-height: 1.75rem;
+    color: #fafafa;   
 }
 .email{
     font-family: 'Source Sans Pro', Helvetica, sans-serif;
@@ -471,23 +493,8 @@ footer{
     text-align: center;
     line-height: 1.25rem;
     color: #fafafa;  
-    margin: 0;
+    margin: 1rem auto;
 }
-/* positioning footer elements */
-.socialbar{
-    width: 100%;  
-    height: auto;
-    position: relative;
-    top: 10.5rem;
-    padding: 0 6rem;   
-}
-.emailwrapper{
-    width: 100%;
-    position: relative;
-    top: 11rem;
-    margin-bottom: -50px;
-}
-
 /* casestudy selectors */
 .contentheader{
     margin-top: 3.5rem;
@@ -521,9 +528,6 @@ section{
 .bottomslide{
     margin: 2rem 1rem 1rem;  
 }
-br{
-    margin: 1rem auto;
-}
 .section{
     text-align: center;
     margin: .5rem auto;
@@ -538,3 +542,5 @@ br{
         line-height: 1.25rem;
         color: #7a7a7a;
     }
+
+   
