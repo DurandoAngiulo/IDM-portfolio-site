@@ -233,11 +233,12 @@
 
 *{
     box-sizing:border-box;
+
+
 }
 
 body{
     background-color: #F0F4FA;
-   
 }
 /* font selectors*/
 h1 {
@@ -254,6 +255,8 @@ h2{
     font-style: normal;  
     color: #7a7a7a;
     text-align: center;
+    
+
 }
 
 h3{
@@ -290,8 +293,45 @@ figcaption{
     font-size: 20px;
     line-height: 1.9rem;
 }
+/*global selectors */
+.navborder{ /*separator line */
+    background-color: #fafafa;
+    height: 1.5px;
+    margin: .5rem auto;
+    width: 10%;
+    border-radius: 20%;
+}
+.pagborder{ /*separator line */
+    background-color: #7a7a7a;
+    height: 1.5px;
+    margin: .5rem auto;
+    width: 10%;
+    border-radius: 20%;
+}
+a{
+    text-decoration: none;
+    color: #fafafa;
+}
+br{
+    margin: 1rem auto;
+}
+/* navigation selectors */
 
-/*image formating selectors */
+.navigation{
+    position: absolute;
+    overflow: auto;
+    width: 100%;
+    list-style-type: none;
+    padding: 1rem .5rem 0;
+    margin: 0 auto;
+}
+
+.menuicon{
+    float: right;
+    width: 50px;
+    height:40px;
+}
+/*image selectors */
 img{
     height: auto;
     width: 100%;
@@ -323,87 +363,47 @@ margin: 2rem 2rem 0;
 
 }
 .projectfinal{
-    margin: .5rem auto 0; 
+    margin: .5rem auto 3rem; 
 }
+/* home page selectors */
 
-/*global selectors*/
-
-.pageborder{ /*separator line */
-    background-color: #fafafa;
-    height: 1.5px;
-    margin: .5rem auto;
-    width: 10%;
-    border-radius: 20%;
-}
-a{
-    text-decoration: none;
-    color: #fafafa;
-}
-br{
-    margin: 1rem auto;
-}
 hr{
     clear: left;
   margin: .25rem 5rem .5rem;  
 }
-
-/* navigation selectors */
-
-.navigation{
-    overflow: auto;
-    list-style-type: none;
-    padding: 0 .5rem;
+.mainimage{
+    width: 100%;
+    margin: 0rem;
+    border: none;
+}
+.headertext p {
     margin: 0 auto;
+    text-align: left;
+    margin-left: 1rem;
+    color: #fafafa;
 }
-
-.menuicon1{
-    float: left;
-    width: 50%;
-    
+.headertext h1{
+    margin: 0 auto;
+    text-align: left;
+    margin-left: 1rem;
+    font-weight: 500;
+    color: #fafafa;
 }
-.menuicon2{
-    float: right;
-    width: 50%;
-    padding-left: 8rem;
+.headertext{
+width: 100%;
+position: absolute;
+top: 12rem;
 }
-
-/* home page selectors */
-header{
-    margin-bottom: 1rem;
-    padding-top: 1rem;
-    background-image: url("../graphics/images/homepageportrait.jpg");
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-}
-.menu{
-    width: 40px;
-    height: 29px;
-}
- .headertext{
-     text-align: left;
-     color: #fafafa;
-     margin-top: .5rem;
-     margin-bottom: 10rem;
-     padding-left: .5rem;
- }
- .header1{
-     margin: 9rem auto 0rem;
-     color:#fafafa;
-     padding-left: .5rem;
- }
 .latest{
     text-align: center;
     margin: 1rem 1rem;
-    font-size: 35px;
-    color: #5a5a5a;
 }
 
 /* project page selectors*/
 
 .projheader{
     text-align: center;
-    margin: 4rem auto 0;
+    margin: 0 auto;
 }
 
  /*about me/blog selctors*/
@@ -412,11 +412,13 @@ header{
     color: #fafafa;
     font-style: italic;
     font-weight: 400;
-    margin: 0 2rem;
+    margin: 0;
 }
 .blogwrapper{
-    position: absolute;
-    top: 13rem;
+    position: relative;
+    width: 100%;
+    bottom: 15rem;
+    
 
 }
  .about{
@@ -449,24 +451,32 @@ header{
 }
 
 
-/*footer selectors */
-footer{
-    height: 335px; 
-    padding-top: 3rem;
-    background-image: url("../graphics/images/footerbg.jpg");  
-}
 
+/*footer selectors */
+
+footer{
+    
+    width: 100%;
+    position: relative;
+    top: 22rem;
+    z-index: 2;
+    margin-top: -20rem;
+}
+.footerimg{
+    position: relative;
+    top: .5rem;
+}
 .socialmedia{
     width: 30px;
     height: 30px;
     
 }
-
 .overflow{
     overflow: auto;
     list-style-type: none;
-    padding: 0 5rem;
-    margin: 2rem auto 0;
+    padding: 0 6rem;
+    margin: 2.5rem auto 0;
+    text-align:center;
 }
 .footericons{
     float: left;
@@ -492,7 +502,7 @@ footer{
     text-align: center;
     line-height: 1.25rem;
     color: #fafafa;  
-    margin: 1rem auto;
+    margin: 1.5rem auto 0;
 }
 /* casestudy selectors */
 .contentheader{
@@ -527,6 +537,7 @@ section{
 .bottomslide{
     margin: 2rem 1rem 1rem;  
 }
+
 .section{
     text-align: center;
     margin: .5rem auto;
@@ -541,5 +552,3 @@ section{
         line-height: 1.25rem;
         color: #7a7a7a;
     }
-
-   
