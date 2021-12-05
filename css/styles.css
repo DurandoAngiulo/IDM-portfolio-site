@@ -255,8 +255,7 @@ h2{
     font-style: normal;  
     color: #7a7a7a;
     text-align: center;
-    
-
+    margin-bottom: .5rem;
 }
 
 h3{
@@ -275,12 +274,13 @@ h4{
 }
 p{
     font-family: 'Source Sans Pro', Helvetica, sans-serif;
-    font-weight: 500;
+    font-weight: 400;
     font-style: normal;
     line-height: 1.25rem;
-    color: #7a7a7a;
+    color: #7a7a7a;  
     text-align: left;
-    margin: 1rem 0rem;
+    font-size: 20px;
+    line-height: 1.9rem;
 }
 figcaption{
     font-family: 'Source Sans Pro', Helvetica, sans-serif;
@@ -301,11 +301,11 @@ figcaption{
     width: 10%;
     border-radius: 20%;
 }
-.pagborder{ /*separator line */
+.pageborder{ /*separator line */
     background-color: #7a7a7a;
-    height: 1.5px;
+    height: 2px;
     margin: .5rem auto;
-    width: 10%;
+    width: 50%;
     border-radius: 20%;
 }
 a{
@@ -313,8 +313,15 @@ a{
     color: #fafafa;
 }
 br{
-    margin: 1rem auto;
+    margin: .5rem auto;
 }
+.header{
+        text-align: center;
+        margin: 1rem auto;
+        font-size: 36px;
+    }
+
+
 /* navigation selectors */
 
 .navigation{
@@ -323,13 +330,14 @@ br{
     width: 100%;
     list-style-type: none;
     padding: 1rem .5rem 0;
-    margin: 0 auto;
+    margin: 0 auto 1rem;
 }
 
 .menuicon{
     float: right;
     width: 50px;
     height:40px;
+    
 }
 /*image selectors */
 img{
@@ -337,7 +345,7 @@ img{
     width: 100%;
 }
 iframe{
-    height: auto;
+    height: 300px;
     width: 100%;
 }
 
@@ -349,28 +357,24 @@ iframe{
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);  
     border-radius: 3%; 
 }
+.marginfix{
+    margin: 1.5rem auto 0;
+    border-radius: 3%;
+}
+/* image positioning */    
 figure{
     margin: 1rem 0 1.5rem;
 }
  .border{
 margin: 2rem;
  }
-.borderfinal{
-margin: 2rem 2rem 0;   
-}
-.project{
- margin: .5rem auto 3rem; 
 
+.project{
+ margin: 0 auto 3rem; 
 }
-.projectfinal{
-    margin: .5rem auto 3rem; 
-}
+
 /* home page selectors */
 
-hr{
-    clear: left;
-  margin: .25rem 5rem .5rem;  
-}
 .mainimage{
     width: 100%;
     margin: 0rem;
@@ -394,17 +398,10 @@ width: 100%;
 position: absolute;
 top: 12rem;
 }
-.latest{
-    text-align: center;
-    margin: 1rem 1rem;
-}
+
 
 /* project page selectors*/
 
-.projheader{
-    text-align: center;
-    margin: 0 auto;
-}
 
  /*about me/blog selctors*/
  .blog{
@@ -413,6 +410,7 @@ top: 12rem;
     font-style: italic;
     font-weight: 400;
     margin: 0;
+    font-size: 30px;
 }
 .blogwrapper{
     position: relative;
@@ -433,6 +431,7 @@ top: 12rem;
 
  .experience{
      margin: 1rem 1rem 1.5rem;
+     font-size: 20px;
  }
 .resume{
     font-family: 'Source Sans Pro', Helvetica, sans-serif;
@@ -441,16 +440,9 @@ top: 12rem;
     line-height: 1.25rem;
     color: #7a7a7a;
     text-align: left;  
-    margin: 0 1rem;
+    margin: 0 auto 3rem;
+    padding: 1rem 1rem;
 }
-.blogtitle{
-    margin: 1rem auto 0;
-}
-.blogslide{
-    margin: 4rem 1rem 1rem;        
-}
-
-
 
 /*footer selectors */
 
@@ -464,7 +456,7 @@ footer{
 }
 .footerimg{
     position: relative;
-    top: .5rem;
+    top: 1.5rem; 
 }
 .socialmedia{
     width: 30px;
@@ -505,17 +497,22 @@ footer{
     margin: 1.5rem auto 0;
 }
 /* casestudy selectors */
+
 .contentheader{
-    margin-top: 3.5rem;
+    margin-top: 3rem;
+    clear: both;
 }
 section{
-    margin: 2rem 1rem 4rem;
-    padding: .5rem 1rem 1rem;
     background-color: #ffffff;
-    border-radius: 3%;
+    margin: 0 auto 4rem;
     box-shadow: 0px 6px 5px rgba(0, 0, 0, 0.4);
+    border-top-left-radius: 3%;
+    border-top-right-radius: 3%;
 }
-
+.photogallery{
+    border-radius: 0;
+    padding-bottom: .5rem;
+}
 .title{
     font-family: Spectral, Helvetica, sans-serif;
     font-weight: 400;
@@ -525,30 +522,33 @@ section{
     margin: 5rem auto 2rem;
 }
 
-.ptag{
-    font-family: 'Source Sans Pro', Helvetica, sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    line-height: 1.25rem;
-    color: #7a7a7a;
-    text-align: left;
-    margin: 1rem 1rem;
-}
-.bottomslide{
-    margin: 2rem 1rem 1rem;  
-}
-
+/* controls parts in casestudies*/
 .section{
     text-align: center;
     margin: .5rem auto;
-    }
-    ul{
-        list-style-type: circle;
-        margin: 0 1rem;
-        padding: 0 0 1rem 1.5rem;
-        font-family: 'Source Sans Pro', Helvetica, sans-serif;
-        font-weight: 500;
-        font-style: normal;
-        line-height: 1.25rem;
-        color: #7a7a7a;
-    }
+}
+
+ul{
+list-style-type: circle;
+font-family: 'Source Sans Pro', Helvetica, sans-serif;
+font-weight: 400;
+font-style: normal;
+line-height: 1.25rem;
+color: #7a7a7a;  
+text-align: left;
+font-size: 20px;
+line-height: 1.9rem;
+padding-bottom: 1rem;
+margin-top: 0;
+}
+.casestudytext{
+    padding: 1rem 1rem;
+    margin-top: 0;
+}
+.secondparagraph{
+    padding: 0 1rem 1rem;
+    margin-top: 0;
+}
+.paddingheader{
+    padding-top: 1.5rem;
+}
