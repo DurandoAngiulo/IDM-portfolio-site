@@ -441,9 +441,57 @@ top: 12rem;
     color: #7a7a7a;
     text-align: left;  
     margin: 0 auto 3rem;
-    padding: 1rem 1rem;
+    padding: 1rem 1.25rem;
 }
 
+/* resume selectors*/
+.resumetitle{
+    font-family: Spectral, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+    font-style: normal; 
+    color: #7a7a7a;
+    text-align: center;
+    margin: 5rem auto 0rem;
+}
+.subheader{
+    margin: 0.5rem auto;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.resumesection{
+margin: 2rem auto 0;
+padding: 0 1rem; 
+
+}
+.resumesectionheader{
+    display: block;
+    text-align: left;
+    border-bottom: 2px solid #7a7a7a;
+}
+.resumetext{
+    padding: 1rem 1rem;
+    margin: 0 auto;
+    font-weight: 600; 
+    padding: .5rem 0 0;
+}
+.resumelist{
+    list-style: none;
+    padding: 0;
+}
+.resumelistitem{
+    margin-top: .5rem;
+}
+.circleresumelist{
+    padding: 0 0 0 1rem;
+    
+    
+}
+.circleresumelistitem{
+    list-style-type: circle;
+    margin-top: .5rem;
+}
 /*footer selectors */
 
 footer{
