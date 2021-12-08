@@ -417,8 +417,6 @@ top: 12rem;
     width: 100%;
     bottom: 15rem;
     margin-bottom: -2rem;
-    
-
 }
  .about{
      text-align: center;
@@ -443,6 +441,13 @@ top: 12rem;
     text-align: left;  
     margin: 0 auto 3rem;
     padding: 1rem 1.25rem;
+}
+.exheader{
+    margin-bottom: .5rem;
+}
+
+.blogtitle{
+    margin-bottom: 0;
 }
 
 /* resume selectors*/
